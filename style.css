@@ -13,18 +13,13 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    text-align:right;
 }
 
 header {
-    margin: 30px auto 0px auto;
+    margin: 15% 15% auto auto;
     width: 55%;
-    padding: 5px;
-}
-
-footer {
-    margin: auto;
-    width: 50%;
-    padding: 5px;
+    padding: 10px;
 }
 
 #main-pic {
@@ -38,39 +33,18 @@ footer {
 #main-title {
     display:block;
     float:left;
-    margin:10px;
-}
 
-#main-data {
-    display:block;
-    clear:both;
-    width: 55%;
-    margin: auto;
-    padding: 10px 5px 10px 5px;
-}
-
-li {
-    text-align: justify;
-    text-shadow: 5px 5px 10px #888888;
-    font-style: italic;
 }
 
 h1 {
     text-shadow: 5px 5px 10px #888888;
+    text-align:right;
 }
 
 h2 {
     text-shadow: 5px 5px 10px #888888;
-}
-
-h3 {
-    text-shadow: 5px 5px 10px #888888;
-}
-
-p {
-    font-weight: bold;
-    text-align: justify;
-    text-shadow: 5px 5px 10px #888888;
+    font-size:22px;
+    text-align:right;
 }
 
 .special-font {
