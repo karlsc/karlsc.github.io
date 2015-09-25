@@ -1,6 +1,5 @@
 body {
     font-family: Arial, sans-serif;
-    /*text-align: center;*/
     background-image:
         linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 255, 0.4)), 
         url("http://www.powerlineplus.com/wp-content/uploads/2013/08/Grey-background-for-site11.jpg");
@@ -10,10 +9,9 @@ body {
     right: 0;
     top: 0;
     bottom: 0;
-    background-repeat: no-repeat;
+    /*background-repeat: no-repeat;*/
     background-attachment: fixed;
     background-size: cover;
-    text-align:right;
 }
 
 header {
@@ -32,9 +30,9 @@ header {
 #main-title {
     display:block;
     float:left;
-    /*border-right:2px solid black;*/
     padding-right:20px;
     padding-bottom:25px;
+    text-align:right;
 }
 
 h1 {
