@@ -17,9 +17,8 @@ body {
 }
 
 header {
-    margin: 15% 15% auto auto;
-    width: 55%;
-    padding: 10px;
+    margin: 15% auto;
+    width: 50%;
 }
 
 #main-pic {
@@ -27,24 +26,25 @@ header {
     box-shadow: 5px 5px 10px #888888;
     display:block;
     float:left;
-    margin:10px;
+    margin:0px 0px 0px 25px;
 }
 
 #main-title {
     display:block;
     float:left;
-
 }
 
 h1 {
     text-shadow: 5px 5px 10px #888888;
     text-align:right;
+    margin-bottom: -10px;
 }
 
 h2 {
     text-shadow: 5px 5px 10px #888888;
     font-size:22px;
     text-align:right;
+    margin-bottom: 10px;
 }
 
 .special-font {
