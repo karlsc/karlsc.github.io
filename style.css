@@ -1,34 +1,17 @@
 body {
     font-family: Arial, sans-serif;
-    /*background-image:*/
-    /*    linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 255, 0.4)), */
-    /*    url("http://www.powerlineplus.com/wp-content/uploads/2013/08/Grey-background-for-site11.jpg");*/
-    /*content: ' ';*/
-    /*position: absolute;*/
-    /*left: 0;*/
-    /*right: 0;*/
-    /*top: 0;*/
-    /*bottom: 0;*/
-    /*background-repeat: no-repeat;*/
-    /*background-attachment: fixed;*/
-    /*background-size: cover;*/
+    margin:0;
+    padding:0;
 }
-
-/*header {*/
-/*    margin: 15% auto;*/
-/*    width: 50%;*/
-/*}*/
 
 #main-pic {
     border-radius: 50%;
     box-shadow: 0px 0px 15px 10px #f3f4f6;
-    display:block;
     float:left;
     margin-left: 10px;
 }
 
 #main-title {
-    display:block;
     float:left;
     padding-right:20px;
     padding-bottom:25px;
@@ -56,26 +39,30 @@ h2 {
 a {
     color: black;
     text-decoration: none;
+    transition-property:opacity;
+    transition-duration:1s;
+    opacity:1;
 }
 
 a:hover {
-    opacity:0.4;
+    transition-property:opacity;
+    transition-duration:1s;
+    opacity:0.3;
 }
 
-.outer {
-    display: table;
-    position: absolute;
-    height: 100%;
-    width: 100%;
+.Aligner {
+  display: flex;
+  align-items: center;
+  min-height: 24em;
+  justify-content: center;
+  height:100vh;
 }
 
-.middle {
-    display: table-cell;
-    vertical-align: middle;
+.Aligner-item {
+  flex: 1;
 }
 
-.inner {
-    margin-left: auto;
-    margin-right: auto; 
-    width: 600px;
+.Aligner-item--fixed {
+  flex: none;
+  max-width: 50%;
 }
