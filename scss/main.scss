@@ -1,7 +1,6 @@
 body {
     font-family: Arial, sans-serif;
     margin:0;
-    padding:0;
 }
 
 #main-pic {
@@ -50,19 +49,18 @@ a:hover {
     opacity:0.3;
 }
 
-.Aligner {
+.flex-container {
   display: flex;
   align-items: center;
-  min-height: 24em;
   justify-content: center;
   height:100vh;
 }
 
-.Aligner-item {
-  flex: 1;
-}
+// .Aligner-item {
+//   flex: 1;
+// }
 
-.Aligner-item--fixed {
-  flex: none;
-  max-width: 60%;
-}
+// .Aligner-item--fixed {
+//   flex: none;
+//   max-width: 60%;
+// }
