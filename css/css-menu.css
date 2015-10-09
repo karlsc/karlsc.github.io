@@ -45,11 +45,16 @@
   -moz-transition: color .25s;
   -ms-transition: color .25s;
   -o-transition: color .25s;
-  transition: color 0s;
+  transition: color .25s;
+  transition-property:opacity;
+  transition-duration:1s;
+  opacity:1;
 }
 #cssmenu ul li a:hover {
-  color: #777;
-  opacity:0.8;
+  color: #fff;
+  opacity:0.25;
+  transition-property:opacity;
+  transition-duration:1s;
 }
 #cssmenu ul li a:hover:before {
   width: 100%;

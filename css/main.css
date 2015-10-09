@@ -2,49 +2,48 @@ body {
   font-family: Arial, sans-serif;
   margin: 0; }
 
-#main-pic {
+.main-pic {
   border-radius: 50%;
-  box-shadow: 0px 0px 15px 10px #f3f4f6;
-  float: left;
-  margin-left: 10px; }
+  box-shadow: 0px 0px 15px 10px #f3f4f6; }
 
-#main-title {
-  float: left;
-  padding-right: 20px;
-  padding-bottom: 25px;
-  text-align: right; }
-
-h1 {
-  text-shadow: 5px 5px 10px #888888;
-  text-align: right;
-  margin-bottom: -10px; }
-
-h2 {
-  text-shadow: 5px 5px 10px #888888;
-  font-size: 22px;
-  text-align: right;
-  margin-bottom: 10px; }
-
-.special-font {
-  font-size: 50px;
-  text-shadow: 5px 5px 10px #888888; }
-
-a {
-  color: black;
-  text-decoration: none;
-  transition-property: opacity;
-  transition-duration: 1s;
-  opacity: 1; }
-
-a:hover {
-  transition-property: opacity;
-  transition-duration: 1s;
-  opacity: 0.3; }
+.main-title {
+  text-align: center;
+  width: 500px;
+  padding-top: 2.5em; }
+  .main-title h1 {
+    text-shadow: 3px 3px 10px #666; }
+  .main-title .special-font {
+    font-size: 4em;
+    text-shadow: 3px 3px 10px #666; }
+  .main-title a {
+    color: black;
+    text-decoration: none;
+    transition-property: opacity;
+    transition-duration: 1s;
+    opacity: 1; }
+    .main-title a:hover {
+      transition-property: opacity;
+      transition-duration: 1s;
+      opacity: 0.5; }
 
 .flex-container {
   display: flex;
   align-items: center;
   justify-content: center;
   height: 100vh; }
+
+footer {
+  background-color: #000;
+  width: 100%;
+  height: 50px;
+  box-shadow: 0px -3px 5px #000; }
+  footer p {
+    text-align: right;
+    color: white;
+    font-size: 2em;
+    padding: 0.2em; }
+
+header {
+  box-shadow: 0px 3px 5px #000; }
 
 /*# sourceMappingURL=main.css.map */
