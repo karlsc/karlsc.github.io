@@ -3,6 +3,7 @@
   background: #000;
   width: 100%;
   position:fixed;
+  z-index:10;
 }
 #cssmenu ul {
   list-style: none;
@@ -32,7 +33,7 @@
   text-align: center;
 }
 #cssmenu ul li a {
-  color: #fff;
+  color: #f3f4f6;
   text-decoration: none;
   display: block;
   padding: 15px 25px;
@@ -51,8 +52,8 @@
   opacity:1;
 }
 #cssmenu ul li a:hover {
-  color: #fff;
-  opacity:0.25;
+  color: #f3f4f6;
+  opacity:0.3;
   transition-property:opacity;
   transition-duration:1s;
 }
@@ -67,7 +68,7 @@
   top: 19px;
   height: 6px;
   width: 6px;
-  background: #bbb;
+  background: #d3d4d6;
   opacity: 1;
   border-radius:50%;
 }
@@ -79,7 +80,7 @@
   bottom: 0;
   height: 3px;
   width: 0;
-  background: #ccc;
+  background: #c3c4c6;
   -webkit-transition: width 1s;
   -moz-transition: width 1s;
   -ms-transition: width 1s;
